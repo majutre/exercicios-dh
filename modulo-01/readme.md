@@ -1,6 +1,6 @@
 # Módulo I - Front-end
 
-## Índice
+## :floppy_disk: Índice
 
 
  - [Aula 01: HTML e CSS](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-01);
