@@ -1,0 +1,67 @@
+body {
+    background-color: #f1fcfc;
+    font-family: Sans-serif;
+    text-align: center;
+    background-image: url("../imagens/bg2.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #40e0d0;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    /*font-family: 'Bungee Inline',
+    cursive; e tirar italic*/
+    opacity:50%;
+}
+
+h2,
+h3 {
+    color: #72b5b7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+p,
+ul,
+tr, 
+li {
+    color: #633a82;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+h4 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 12px;
+    color: #72b5b7;
+}
+
+img{
+    width: 50em;
+    height: 20em;
+}
+
+.pcenter{
+    text-align: center;
+}
+
+.icon{
+ width: 24px;
+ height: 24px;
+ padding: 8px;
+}
+
+.destaque{
+    background-color: #fcba03;
+    color: blue;
+    font-size:22px;
+}
+

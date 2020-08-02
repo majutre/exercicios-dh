@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.imghobbies {
+    width: 400px;
+    height: 300px;
+}
+
+.imghobbies:hover {
+    border-radius: 20px;
+}
+
+#topoH {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#navlinks {
+    float: left;
+    width: 30%;
+    height: 1750px;
+    background: #ccc;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#body-hobbies {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 1750px;
+    
+}
+
+/* Clear floats after the columns */
+#body-hobbies:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+#footerH {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

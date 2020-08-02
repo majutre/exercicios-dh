@@ -1,0 +1,156 @@
+/* GERAL*/
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E9F8FF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    /* Bloquear rolagem do menu navegação => position: absolute; */
+    top: 0;
+    margin-bottom: 25px;
+    width: 960px; 
+    padding: 16px 0px;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    transform: rotate(-20deg);
+    width: 14%;
+}
+
+.menu ul {
+    background-color: #ff5500;
+    overflow: hidden;
+    padding: 15px 0px;
+    padding-left: 100px;
+}
+
+.menu li {
+    float: left;
+    margin-right: 20px;
+  }
+
+strong{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PRODUTOS */
+main {
+    background-color: #fff;
+    margin-top: 140px;
+}
+
+.vitrine {
+    overflow: hidden;
+}
+
+.produtos {
+    float: left;
+    position: relative;
+    margin: 10px;
+    font-style: italic;
+}
+
+.foto-produto {
+    width: 300px;
+    height: 200px;
+    display: block;
+    /* border-radius: 4px; */
+}
+
+.promo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.nome {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: #000; 
+    opacity: 0.6;*/
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.mais {
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    background-color: #FF0000;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 15px;
+    padding: 5px;
+    width: 100px;
+    height: 28px;
+}
+
+.mais:hover {
+    background-color: #CC0000;
+}
+
+/* FOOTER */
+footer{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    bottom: 10px;
+    margin-top: 200px;
+ }
+
+/* SCROLLBAR */
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 14px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #FFBB99;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #ff5500;
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #CC4400;
+    }
