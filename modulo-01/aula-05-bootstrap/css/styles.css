@@ -1,0 +1,21 @@
+.btnSqr {
+    border-radius: 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group>input.btn {
+    flex-grow: 1;
+}
+
+.img-thumbnail{
+    width: 200px;
+}
+
+span{
+    position: relative;
+    text-align: center;
+}
