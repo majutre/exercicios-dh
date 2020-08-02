@@ -1,4 +1,4 @@
-#:space_invader: Digital House - Santander Java Coders
+# :space_invader: Digital House - Santander Java Coders
 
 Repositório de exercícios do curso **Desenvolvimento Web Fullstack Java** oferecido pela **Digital House** em parceria com o Santander.
 
