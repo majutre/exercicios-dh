@@ -1,4 +1,4 @@
-# Módulo I - Front-end
+# :atom: Módulo I - Front-end
 
 ## :floppy_disk: Índice
 
