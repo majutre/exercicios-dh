@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+   <script type="text/javascript" src="eventos.js"></script>
+    <title>Aula 08 - Tarefa - Eventos</title>
+</head>
+<body id="bd" onclick="changeColor()" onload="timer()">
+
+    <div class="container-fluid">
+    <div class="botoes justify-content-center my-4 row">
+    <button id="btnOi" class="btn btn-outline-primary mr-4" onclick="dizerOi()">Cumprimentar</button>
+    <button id="btnBg" class="btn btn-outline-secondary" onclick="mudarBg()">Alterar fundo</button>
+    </div>
+    <div class="row justify-content-center">
+    <img class="img-main col-6" src="images/coffee.jpg" onload="timer2()" onmouseover="sight()">
+    <img class="img-main col-6" id="fotoPraia" src="images/beach.jpg" onclick="clicker()">
+    </div>
+    <div class="row justify-content-center">
+
+        <div class="col-md-4">
+            <form>
+                <div id="contact-form" class="form-container" data-form-container>
+                    <div class="row">
+                        <div class="form-title">
+                            <span>Fale conosco</span>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="row">
+                            <span class="req-input">
+                                <span class="input-status" data-toggle="tooltip" data-placement="top"> </span>
+                                <input type="text" placeholder="Nome Completo">
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="req-input">
+                                <span class="input-status" data-toggle="tooltip" data-placement="top"> </span>
+                                <input type="email" placeholder="E-mail">
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="req-input">
+                                <span class="input-status" data-toggle="tooltip" data-placement="top"> </span>
+                                <input type="tel" placeholder="Telefone">
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="req-input message-box">
+                                <span class="input-status" data-toggle="tooltip" data-placement="top"> </span>
+                                <textarea type="textarea" data-min-length="10" placeholder="Digite sua mensagem."></textarea>
+                        </div>
+                        <div class="row submit-row">
+                            <button type="button" class="btn btn-block submit-form" onclick="fail()">Enviar</button>
+                        </div>
+                        <div class="oauth-buttons">
+                            <button class="btn btn-block submit-form btn-md btn-google btn-block text-uppercase mt-4" type="submit"><i
+                                    class="mr-2" onclick="goTo()"></i> Ir para o Google</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
