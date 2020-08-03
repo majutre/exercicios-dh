@@ -11,4 +11,4 @@
  - [Aula 06: Git e JS](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-06);
  - [Aula 07: Funções JS e HTML](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-07);
  - [Aula 08: DOM e Eventos](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-08/);
-
+ - [Aula 09: Formulários e AJAX](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-09/);
