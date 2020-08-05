@@ -19,11 +19,6 @@
 *.tar
 *.zip
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
 
 # Word/LibreOffice Files #
 ##########################
