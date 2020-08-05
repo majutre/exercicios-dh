@@ -84,7 +84,5 @@ function editar(){
     document.getElementById("botoes").style.display = "block";
     document.getElementById("dados").style.display = "none";
 
-    fName.addEventListener("input", function () {
-        alert(this.value);
-    });
+  //
 }
