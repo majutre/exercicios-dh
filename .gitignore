@@ -30,7 +30,7 @@
 
 *.doc
 *.docx
-*.odf
+*.odt
 *.tmp
 
 # Word temporary
