@@ -56,7 +56,7 @@ function fail() {
 
 function goTo() {
     //window.location.href = "http://google.com";
-    window.location.replace("http://stackoverflow.com");
+    window.location.replace("http://google.com");
 }
 
 //TIMERS
