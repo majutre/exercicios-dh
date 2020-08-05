@@ -1,0 +1,41 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+tr, td{
+    align-content: center;
+    text-align: center;
+    
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+
+
+.divPalco{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+
+#palco{
+    margin-top: 50px;
+    text-align: center;
+    display: none;
+}
+
+.jogoV{
+    width: 100px;
+    height: 100px;
+}
+
+.br{
+    border-right: solid 1px red
+}
+
+.bb{
+    border-bottom: solid 1px red;
+}

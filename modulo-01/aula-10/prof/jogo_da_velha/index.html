@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<title>Jogo da velha</title>
+	<script src="assets/js/jquery-2.2.1.js"></script>
+	<script src="assets/js/jogo2.js"></script>
+</head>
+
+<body>
+	<div id="pagina-inicial" align="center">
+		<table>
+			<tr>
+				<td colspan="3" align="center">
+					<h1>JOGO DA VELHA</h1>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="assets/imagens/jogador_1.png">
+					<br />
+					<input id="user1" type="text" maxlength="10" placeholder="Apelido do Jogador 1">
+				</td>
+				<td align="center">
+					<img id="btnStart" src="assets/imagens/iniciar.png">
+				</td>
+				<td align="center">
+					<img src="assets/imagens/jogador_2.png">
+					<br />
+					<input id="user2" type="text" maxlength="10" placeholder="Apelido do Jogador 2">
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="palco">
+		<div class="divPalco">
+			<img class="imgPalco" src="assets/imagens/jogador_1.png">
+			<br />
+			<span id="input-user1"></span>
+		</div>
+		<div class="divPalco" align="center">
+			<table align="center">
+				<tr align="center">
+					<td class="br bb">
+						<div class="jogada jogoV" id="a-1"></div>
+					</td>
+					<td class="br bb">
+						<div class="jogada jogoV" id="a-2"></div>
+					</td>
+					<td class="bb">
+						<div class="jogada jogoV" id="a-3"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="br bb">
+						<div class="jogada jogoV" id="b-1"></div>
+					</td>
+					<td class="br bb">
+						<div class="jogada jogoV" id="b-2"></div>
+					</td>
+					<td class="bb">
+						<div class="jogada jogoV" id="b-3"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="br">
+						<div class="jogada jogoV" id="c-1"></div>
+					</td>
+					<td class="br">
+						<div class="jogada jogoV" id="c-2"></div>
+					</td>
+					<td>
+						<div class="jogada jogoV" id="c-3"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="divPalco">
+			<img class="imgPalco" src="assets/imagens/jogador_2.png">
+			<br />
+			<span id="input-user2"></span>
+		</div>
+	</div>
+</body>
+
+</html>
