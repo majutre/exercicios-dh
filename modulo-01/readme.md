@@ -13,3 +13,4 @@
  - [Aula 08: DOM e Eventos](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-08/);
  - [Aula 09: Formulários e AJAX](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-09/);
  - [Aula 10: JQuery](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-10/);
+ - [Aula 11: SPA/Angular](https://github.com/majutre/exercicios-dh/tree/master/modulo-01/aula-11/).

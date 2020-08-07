@@ -1,3 +1,8 @@
+# Node Modules #
+################
+
+/node_modules
+
 # Compiled source #
 ###################
 *.com
@@ -36,3 +41,4 @@ Backup of *.doc*
 
 # LibreOffice locks
 .~lock.*#
+
