@@ -8,7 +8,7 @@ Repositório de exercícios do curso **Desenvolvimento Web Fullstack Java** ofer
 
 :pushpin: [Módulo 1 - Front-end](https://github.com/majutre/exercicios-dh/tree/master/modulo-01)
 
-:pushpin: Módulo 2 - Fundamentos da Programação
+:pushpin: [Módulo 2 - Fundamentos da Programação](https://github.com/majutre/exercicios-dh/tree/master/modulo-02)
 
 :pushpin: Módulo 3 - Banco de Dados e Aplicações
 
