@@ -1,4 +1,4 @@
- # :pushpin: Módulo I - Front-end
+ # :pushpin: Módulo II - Fundamentos da Programação
 
 ## :floppy_disk: Índice
 
