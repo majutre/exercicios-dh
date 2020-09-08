@@ -10,7 +10,7 @@ Repositório de exercícios do curso **Desenvolvimento Web Fullstack Java** ofer
 
 :pushpin: [Módulo 2 - Fundamentos da Programação](https://github.com/majutre/exercicios-dh/tree/master/modulo-02)
 
-:pushpin: Módulo 3 - Banco de Dados e Aplicações
+:pushpin: [Módulo 3 - Banco de Dados e Aplicações](https://github.com/majutre/exercicios-dh/tree/master/modulo-03)
 
 :pushpin: Módulo 4 - Spring Framework
 
